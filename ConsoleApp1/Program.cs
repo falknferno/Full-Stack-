@@ -7,9 +7,10 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Console.WriteLine("What is your name?");
-            string name = Console.ReadLine();
-            Console.WriteLine("Dear " + name + " Welcome to our lesson");
+            int ascicode = Console.Read();
+            Console.WriteLine(ascicode);
             Console.ReadKey();
+            
         }
     }
 }
