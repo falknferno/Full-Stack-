@@ -24,11 +24,11 @@ namespace WinForm16
             {
                 e.Handled = true;
             }
-            if((e.KeyChar == '-') && ((sender as TextBox).Text.IndexOf("-") != -1))
+            if((e.KeyChar == '-') && ((sender as TextBox).Text.IndexOf("-") >-1))
             {
                 e.Handled = true;
             }
-            if ((e.KeyChar == '.') && ((sender as TextBox).Text.IndexOf(".") != -1))
+            if ((e.KeyChar == '.') && ((sender as TextBox).Text.IndexOf(".") > -1))
             {
                 e.Handled = true;
             }
@@ -40,11 +40,11 @@ namespace WinForm16
             {
                 e.Handled = true;
             }
-            if ((e.KeyChar == '-') && ((sender as TextBox).Text.IndexOf("-") != -1))
+            if ((e.KeyChar == '-') && ((sender as TextBox).Text.IndexOf("-") > -1))
             {
                 e.Handled = true;
             }
-            if ((e.KeyChar == '.') && ((sender as TextBox).Text.IndexOf(".") != -1))
+            if ((e.KeyChar == '.') && ((sender as TextBox).Text.IndexOf(".") > -1))
             {
                 e.Handled = true;
             }
